@@ -69,33 +69,33 @@ The following table shows the results of the different models used in this proje
 The following figures show the results of the different models used in this project:
 
 ## AutoEncoder
-![](/home/pegiadis/github/movie_lens/metrics/rmse_ae.png)
-![](/home/pegiadis/github/movie_lens/metrics/train_test_ae.png)
+![](./metrics/rmse_ae.png)
+![](./metrics/train_test_ae.png)
 
 ## Deep Neural Network
-![](/home/pegiadis/github/movie_lens/metrics/rmse_dnn.png)
-![](/home/pegiadis/github/movie_lens/metrics/train_test_dnn.png)
+![](./metrics/rmse_dnn.png)
+![](./metrics/train_test_dnn.png)
 
 ## Hybrid Neural Network
-![](/home/pegiadis/github/movie_lens/metrics/rmse_hybrid.png)
-![](/home/pegiadis/github/movie_lens/metrics/train_test_hybrid.png)
+![](./metrics/rmse_hybrid.png)
+![](./metrics/train_test_hybrid.png)
 
 
 ## Matrix Factorization Neural Network
-![](/home/pegiadis/github/movie_lens/metrics/rmse_mfnn.png)
-![](/home/pegiadis/github/movie_lens/metrics/train_test_mfnn.png)
+![](./metrics/rmse_mfnn.png)
+![](./metrics/train_test_mfnn.png)
 
 ## Neural Collaborative Filtering
-![](/home/pegiadis/github/movie_lens/metrics/rmse_ncf.png)
-![](/home/pegiadis/github/movie_lens/metrics/train_test_ncf.png)
+![](./metrics/rmse_ncf.png)
+![](./metrics/train_test_ncf.png)
 
 ## Recurrent Neural Network
-![](/home/pegiadis/github/movie_lens/metrics/rmse_rnn.png)
-![](/home/pegiadis/github/movie_lens/metrics/train_test_rnn.png)
+![](./metrics/rmse_rnn.png)
+![](./metrics/train_test_rnn.png)
 
 ## Matrix Factorization
-![](/home/pegiadis/github/movie_lens/metrics/mf.png)
+![](./metrics/mf.png)
 
 
 # Streamlit App
-![](/home/pegiadis/github/movie_lens/metrics/streamlit_app.png)
+![](./metrics/streamlit_app.png)
