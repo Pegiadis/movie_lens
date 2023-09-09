@@ -1,4 +1,4 @@
-# MovieLens Deep Learning Models
+    # MovieLens Deep Learning Models
 
 This repository focuses on developing multiple deep learning models to make recommendation systems on the MovieLens dataset.
 
@@ -7,30 +7,53 @@ This repository focuses on developing multiple deep learning models to make reco
 The project is organized as follows:
 ```
 ├── notebooks
-│   ├── AE.ipynb
-│   ├── DNN.ipynb
-│   ├── eda.ipynb
-│   ├── Hybrid_NN.ipynb
-│   ├── LSTM.ipynb
-│   ├── Matrix_factorization.ipynb
-│   ├── MFNN.ipynb
-│   ├── NCF.ipynb
-│   ├── RNN.ipynb
-│   └── transformations.ipynb
+│   ├── collaborative_filtering
+│   │   ├── AE.ipynb
+│   │   ├── DNN.ipynb
+│   │   ├── CNN.ipynb
+│   │   ├── GNN.ipynb
+│   │   ├── Matrix_factorization.ipynb
+│   │   ├── NCF.ipynb
+│   ├── content_based
+│   │   ├── decision_trees.ipynb
+│   │   ├── knn.ipynb
+│   │   ├── random_forest.ipynb
+│   │   ├── SVM.ipynb
+│   │   ├── MLP.ipynb
+│   │   ├── xgboost.ipynb
+│   ├── hybrid
+│   │   ├── Hybrid_NN.ipynb
+│   ├── data_manipulation
+│   │   ├── eda.ipynb
+│   │   ├── transformations.ipynb
 ```
 
 
 ## Notebooks Description
 
-- `AE.ipynb`: AutoEncoders Model
-- `DNN.ipynb`: Deep Neural Network Model
-- `eda.ipynb`: Exploratory Data Analysis
-- `Hybrid_NN.ipynb`: Hybrid Neural Network Model
-- `Matrix_factorization.ipynb`: Matrix Factorization Techniques
-- `MFNN.ipynb`: Matrix Factorization Neural Network Model
-- `NCF.ipynb`: Neural Collaborative Filtering
-- `RNN.ipynb`: Recurrent Neural Network Model
-- `transformations.ipynb`: Data Transformations and Preprocessing
+### Collaborative Filtering:
+- `AE.ipynb`: AutoEncoders Model for collaborative filtering.
+- `DNN.ipynb`: Deep Neural Network Model for collaborative filtering.
+- `CNN.ipynb`: Convolutional Neural Network Model for collaborative filtering.
+- `GNN.ipynb`: Graph Neural Network Model for collaborative filtering.
+- `Matrix_factorization.ipynb`: Matrix Factorization Techniques for collaborative filtering.
+- `NCF.ipynb`: Neural Collaborative Filtering.
+
+### Content Based:
+- `decision_trees.ipynb`: Decision Trees Model for content-based filtering.
+- `knn.ipynb`: K-Nearest Neighbors Model for content-based filtering.
+- `random_forest.ipynb`: Random Forest Model for content-based filtering.
+- `SVM.ipynb`: Support Vector Machine Model for content-based filtering.
+- `MLP.ipynb`: Multi-Layer Perceptron Model for content-based filtering.
+- `xgboost.ipynb`: XGBoost Model for content-based filtering.
+
+### Hybrid:
+- `Hybrid_NN.ipynb`: Hybrid Neural Network Model.
+
+### Data Manipulation:
+- `eda.ipynb`: Exploratory Data Analysis.
+- `transformations.ipynb`: Data Transformations and Preprocessing.
+
 
 # Hyperlink
 From the following link, you can download the dataset used in this project:
@@ -52,17 +75,23 @@ The data folder contains both the raw and cleaned datasets used in this project:
 
 # Results
 
-The following table shows the results of the different models used in this project:
+## Collaborative Filtering
 
-| Model                               | RMSE   | 
-|-------------------------------------|--------|
-| AutoEncoders                        | 0.4963 |
-| Deep Neural Network                 | 0.9668 |
-| Hybrid Neural Network               | 0.7956 |
-| Matrix Factorization                | 0.8999 |
-| Matrix Factorization Neural Network | 6.064  |
-| Neural Collaborative Filtering      | 0.9231 |
-| Recurrent Neural Network            | 0.7924 |
+The following table shows the results of the different collaborative filtering models used in this project:
+
+| Model                               | RMSE   | MAE      | MSE      |
+|-------------------------------------|--------|----------|----------|
+| AutoEncoders                        | 0.4925 | 0.3539   | 0.2426   |
+| Deep Neural Network                 | 0.9799 | 0.7921   | 0.9604   |
+| Convolutional Neural Network (CNN)  | 1.0790 | 0.8584   | 1.1643   |
+| Graph Neural Network (GNN)          | 1.3084 | 1.1191   | 1.7120   |
+| Neural Collaborative Filtering (NCF)| 0.9022 | 0.6969   | 0.8140   |
+| Matrix Factorization                | 0.9221 | 0.7087   | 0.0353   |
+
+
+## Content Based
+
+The following table shows the results of the different content based models used in this project:
 
 # visualizations
 
