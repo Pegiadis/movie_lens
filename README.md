@@ -79,52 +79,39 @@ The data folder contains both the raw and cleaned datasets used in this project:
 
 The following table shows the results of the different collaborative filtering models used in this project:
 
-| Model                               | RMSE   | MAE      | MSE      |
-|-------------------------------------|--------|----------|----------|
-| AutoEncoders                        | 0.4925 | 0.3539   | 0.2426   |
-| Deep Neural Network                 | 0.9799 | 0.7921   | 0.9604   |
-| Convolutional Neural Network (CNN)  | 1.0790 | 0.8584   | 1.1643   |
-| Graph Neural Network (GNN)          | 1.3084 | 1.1191   | 1.7120   |
-| Neural Collaborative Filtering (NCF)| 0.9022 | 0.6969   | 0.8140   |
-| Matrix Factorization                | 0.9221 | 0.7087   | 0.0353   |
+| Model                                | RMSE   | MAE    | MSE    |
+|--------------------------------------|--------|--------|--------|
+| AutoEncoders                         | 0.4925 | 0.3539 | 0.2426 |
+| Deep Neural Network                  | 0.9799 | 0.7921 | 0.9604 |
+| Convolutional Neural Network (CNN)   | 1.0790 | 0.8584 | 1.1643 |
+| Graph Neural Network (GNN)           | 1.3084 | 1.1191 | 1.7120 |
+| Neural Collaborative Filtering (NCF) | 0.9022 | 0.6969 | 0.8140 |
+| Matrix Factorization                 | 0.9221 | 0.7087 | 0.0353 |
 
 
-## Content Based
+## Content Based    
 
 The following table shows the results of the different content based models used in this project:
 
-# visualizations
+| Model          | RMSE   | MAE    | MSE    |
+|----------------|--------|--------|--------|
+| Decision Trees | 0.6212 | 0.4602 | 0.3859 |
+| k-NN           | 0.6498 | 0.4847 | 0.4222 |
+| Random Forest  | 0.6248 | 0.4632 | 0.3903 |
+| SVM            | 0.6271 | 0.4565 | 0.3933 |
+| XGBoost        | 0.6186 | 0.4589 | 0.3826 |
+| MLP            | 0.6326 | 0.4816 | 0.4002 |
+
+
+# Visualizations
 
 The following figures show the results of the different models used in this project:
 
-## AutoEncoder
-![](./metrics/rmse_ae.png)
-![](./metrics/train_test_ae.png)
+## Collaborative Filtering
+![](./metrics/collaborative_filtering_metrics.png)
 
-## Deep Neural Network
-![](./metrics/rmse_dnn.png)
-![](./metrics/train_test_dnn.png)
-
-## Hybrid Neural Network
-![](./metrics/rmse_hybrid.png)
-![](./metrics/train_test_hybrid.png)
-
-
-## Matrix Factorization Neural Network
-![](./metrics/rmse_mfnn.png)
-![](./metrics/train_test_mfnn.png)
-
-## Neural Collaborative Filtering
-![](./metrics/rmse_ncf.png)
-![](./metrics/train_test_ncf.png)
-
-## Recurrent Neural Network
-![](./metrics/rmse_rnn.png)
-![](./metrics/train_test_rnn.png)
-
-## Matrix Factorization
-![](./metrics/mf.png)
-
+## Content Based  
+![](./metrics/content_based_metrics.png)
 
 # Streamlit App
 ![](./metrics/streamlit_app.png)
