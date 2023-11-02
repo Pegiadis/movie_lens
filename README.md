@@ -1,4 +1,4 @@
-    # MovieLens Deep Learning Models
+# MovieLens Deep Learning Models
 
 This repository focuses on developing multiple deep learning models to make recommendation systems on the MovieLens dataset.
 
