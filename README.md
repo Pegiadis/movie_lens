@@ -1,4 +1,4 @@
-    # MovieLens Deep Learning Models
+# MovieLens Deep Learning Models
 
 This repository focuses on developing multiple deep learning models to make recommendation systems on the MovieLens dataset.
 
@@ -101,7 +101,6 @@ The following table shows the results of the different content based models used
 | SVM            | 0.6271 | 0.4565 | 0.3933 |
 | XGBoost        | 0.6186 | 0.4589 | 0.3826 |
 | MLP            | 0.6326 | 0.4816 | 0.4002 |
-
 
 # Visualizations
 
