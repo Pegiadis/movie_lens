@@ -75,6 +75,21 @@ The data folder contains both the raw and cleaned datasets used in this project:
 
 # Results
 
+## Metrics 
+
+1. **Mean Squared Error (MSE)**: 
+   - *Description*: MSE is the average of the squares of the errors or deviations. It measures the average squared difference between the estimated values and the actual value.
+   - *Interpretation*: A lower MSE value indicates better model performance with more accurate predictions. MSE gives more weight to larger errors due to squaring each error term.
+
+2. **Mean Absolute Error (MAE)**:
+   - *Description*: MAE is the average of the absolute errors between predicted values and observed values. It measures the average magnitude of the errors in a set of predictions, without considering their direction.
+   - *Interpretation*: A lower MAE value signifies a better model with higher precision. MAE is less sensitive to outliers compared to MSE.
+
+3. **Root Mean Squared Error (RMSE)**:
+   - *Description*: RMSE is the square root of the mean of the squared errors. It measures the standard deviation of the residuals or prediction errors.
+   - *Interpretation*: RMSE is more sensitive to outliers than MAE. A lower RMSE value denotes a model that predicts the data with higher accuracy.
+
+
 ## Collaborative Filtering
 
 The following table shows the results of the different collaborative filtering models used in this project:
